@@ -1,6 +1,6 @@
 # Twitter Translation Bot
 
-A Twitter bot that automatically quote retweets new tweets from specific users, translating them if they are written in a specific language. The bot uses the [Twitter API v2](https://github.com/plhery/node-twitter-api-v2) to interact with Twitter, [languagedetect](https://github.com/FGRibreau/node-language-detect) for language detection, and [google-translate-api-x](https://github.com/AidanWelch/google-translate-api) for translation.
+A Twitter bot that automatically quote retweets new tweets from specific users, translating them if they are written in a specific language. The bot uses the [`Twitter API v2`](https://github.com/plhery/node-twitter-api-v2) to interact with Twitter, [`languagedetect`](https://github.com/FGRibreau/node-language-detect) for language detection, and [`google-translate-api-x`](https://github.com/AidanWelch/google-translate-api) for translation.
 
 ## Features
 
@@ -64,7 +64,7 @@ ACCESS_SECRET=your-access-secret
     ```
     - Adjust the polling interval by changing the interval variable in the script.
     - Replace '12': 'jack' with the Twitter IDs and names of the users you want to monitor.
-    - Replace the values of FROM_LANGUAGE, FROM_LANGUAGE_ISO & TO_LANGUAGE_ISO to the desired langugages (You should first check the supported languages by languagedetect and google-translate-api-x).
+    - Replace the values of `FROM_LANGUAGE`, `FROM_LANGUAGE_ISO` & `TO_LANGUAGE_ISO` to the desired langugages (You should first check the supported languages by `languagedetect` and `google-translate-api-x`).
 
 2. Run the bot:
 Start the bot with the following command:
